@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: container-devopsodia
-        image: 192.168.56.120:9091/image-argocd-dev/devopsodia:5
+        image:  mahule/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 80
 ---
